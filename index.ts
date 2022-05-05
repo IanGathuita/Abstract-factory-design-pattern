@@ -1,4 +1,4 @@
-/*Unlike in the Abstract factory, client now creates 2 objects. The first one is for the desired family
+/*Unlike in the factory method, client now creates 2 objects. The first one is for the desired family
 e.g domestic animals, the second object is the animal e.g cat */
 interface Animal{
     printAnimalType():void;
